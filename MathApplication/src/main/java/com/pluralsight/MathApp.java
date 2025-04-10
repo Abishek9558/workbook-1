@@ -31,6 +31,12 @@ public class MathApp {
             double squareroot =Math.sqrt(x);
             System.out.println(squareroot);
 
+//5
+            int x1 =5, y1 =10;
+            int x2 =85, y2 =50;
+            double distance = Math.sqrt(Math.pow(x2 - x1,2) + Math.pow(y2 - y1, 2));
+            System.out.printf("The distance between the points is: %.2f units\n", distance);
+
 
 
 
